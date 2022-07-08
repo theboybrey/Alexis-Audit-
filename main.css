@@ -29,6 +29,7 @@
     --lato: 'Lato';
     --montserrat: 'Montserrat';
     --poppins: 'Poppins';
+    --lora: 'Lora';
 }
 
 *{
@@ -49,7 +50,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    font-family: var(--poppins), sans-serif;
+    font-family: var(--montserrat), sans-serif;
     font-size: 0.88rem;
     background: var(--color-background);
     user-select: none;
@@ -60,3 +61,45 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
+
+a{
+    color: var(--color-dark);
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 0.87rem;
+}
+
+h4{
+    font-size: 08rem;
+}
+
+h5{
+    font-size: 0.77rem;
+}
+
+small{
+    font-size: 0.75rem;
+}
+
+.profile-photo{
+    width: 2.8rem;
+    height: 2.8rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
