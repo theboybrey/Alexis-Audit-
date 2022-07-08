@@ -21,11 +21,42 @@
     --border-radius-3: 1.2rem;
 
     --card-padding: 1.8rem;
-    --padding: 1.2rem;
+    --padding-1: 1.2rem;
 
     --box-shadow: 0 2rem 3rem var(--color-light);
 
     --playfair-display: 'Playfair Display';
     --lato: 'Lato';
     --montserrat: 'Montserrat';
+    --poppins: 'Poppins';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    appearance: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--poppins), sans-serif;
+    font-size: 0.88rem;
+    background: var(--color-background);
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
